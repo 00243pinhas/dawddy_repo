@@ -5,5 +5,15 @@ Author:       pinhas
 Version:      1.0
 */
 
-/* @import url("../my-theme/style.css");  */
-/* Optional if not enqueueing manually */
+
+
+@media (max-width: 1279px) {
+  .site-navigation-dropdown {
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 9999 !important;
+    display: block !important;
+    pointer-events: auto !important;
+  }
+}
+

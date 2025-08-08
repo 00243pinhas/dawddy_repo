@@ -4,5 +4,3 @@
 
 <div class="cont">my name is pinhas </div>
 
-
-<!-- <?php get_footer(); ?> -->
