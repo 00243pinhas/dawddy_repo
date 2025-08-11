@@ -31,5 +31,9 @@ function chani_child_setup() {
 
  
     add_theme_support( 'custom-logo', $defaults );
+
+    // register theme support 
+
+    add_theme_support('post-thumbnails');
 }
 

@@ -2,12 +2,11 @@
 /**
  * The header for our theme.
  * This is the template that displays all of the <head> section and everything up until <div id="content">
- *
  * @package Chani
  */
 ?>
 <!doctype html>
-<html <?php language_attributes(); ?>>
+<html <?php language_attributes();?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,6 +18,7 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>><?php 
+	// Body open hook
 		wp_body_open();
 		chani_page_loading();
 		chani_header_layout();
