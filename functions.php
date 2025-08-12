@@ -35,5 +35,14 @@ function chani_child_setup() {
     // register theme support 
 
     add_theme_support('post-thumbnails');
+    add_theme_support('woocommerce', array(
+        'thumbnail_image_width' => 200,
+        'single_image_width'    => 400,
+        'product_grid'          => array(
+            'default_columns' => 3,
+            'min_columns'     => 2,
+            'max_columns'     => 4,
+        ),
+    ));
 }
 

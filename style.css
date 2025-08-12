@@ -17,3 +17,19 @@ Version: 1.0
   }
 }
 
+ /* .cshlg-popup{
+
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+} */
+
+.cshlg-popup .login_dialog {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: blue;
+    display: none;
+    
+
+}
